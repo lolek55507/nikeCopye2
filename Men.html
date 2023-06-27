@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Men.css">
+    <link rel="icon" href="images/nikeLOgo.jpg">
+    <title>nike copy</title>
+</head>
+<body>
+    <img onclick="showOptions()" class="optionIcon" src="options-icon-30.png" alt="options-icon-30">
+    <div class="top-top-nav">
+        <div class="iconsContainerfttn">
+            <a href="index.html"><div class="iconContainerA">
+                <img class="bsPlayer" src="images/bsPlayer.png">
+            </div></a>
+            <div class="iconContainerB">
+
+            </div>
+        </div>
+        <div class="suggestionsContainer">
+            <ul>
+                <a class="colourAttA" href="fin_a_store.html"><li class="line">Find a Store</li></a>
+                <a class="colourAttA"  href="help.html"><li class="line">Help</li></a>
+                <a class="colourAttA"  href="join_us.html"><li class="line">Join Us</li></a>
+                <a class="colourAttA"  href="sign_in.html"><li>Sign In</li></a>
+            </ul>
+        </div>
+    </div>
+    <nav class="topNav">
+        <a class="nikeIconContainer" href="index.html"></a>
+        <div class="optionsContainer">
+            <h1 class="op"><a class="colourAttB" href="New_featured.html">New & Featured</a></h1>
+            <h1 class="op"><a class="colourAttB" href="Men.html">Men</a></h1>
+            <h1 class="op"><a class="colourAttB" href="Woman.html">Women</a></h1>
+            <h1 class="op"><a class="colourAttB" href="Kids.html">Kids</a></h1>
+            <h1 class="op"><a class="colourAttB" href="Sale.html">Sale</a></h1>
+        </div>
+        <div class="fullRightContainer">
+            <div class="searchContainer">
+                <img class="magnifier" src="images/img_467459.png">
+                <input class="tt" type="text" placeholder="Search">
+            </div>
+           
+            <div class="IIconsContainer">
+                <div class="heartIconContainer">
+                    <img class="heart" src="images/hearts-icons-vectors-illustrations.jpg"> 
+                </div>
+                <a href="theCard.html"><div class="suitcaseIconContainer">
+                    <img class="heart" src="images/vector-briefcase-icon.jpg">
+                    <div id="red_Circle" class="red_Circle">0</div>
+                </div></a>
+            </div>
+        </div>
+    </nav>
+    <div class="everything">
+        <div class="arrow_Left" onclick="moveLeft('pic2', 'pic1', 'pic3',  'Costium', 'Nike black shoe', 'Nike Dunk','£230.95',  '£104',  '£120.95', )"></div>
+        <div class="image_And_Text_Container">
+            <div class="image_Container pic2"></div>
+            <p class="papa" id="name">Costium</p>
+            <p class="papa" id="thePrice">£230.95</p>
+        </div>
+        <div onclick="moveRight('pic2', 'pic1', 'pic3',  'Costium', 'Nike black shoe', 'Nike Dunk','£230.95',  '£104',  '£120.95',)" class="arrow_Right"></div>
+
+        <div onclick="saveData(productNameValue, priceValue)" class="addButton">Add To Card</button>
+    </div>
+    <script src="scripts/appFpp.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
